@@ -21,7 +21,48 @@ Cloudera CDP Workshop
 
 ## 1) データ収集
 ### 1.1) FTPサーバーから、データを収集
-### 1.2) HTTPサーバーから、データを収集
+FTPからデータを取得し、HDFSの指定したフォルダに保存
+
+#### step 1: FTPのフォルダから差分ファイルを取得
+image::10_ingest/101_init_GetFTP.png[width=800]
+
+image::10_ingest/102_Find_Proc.png[width=800]
+
+image::10_ingest/103_Use_GetFTP.png[width=800]
+
+image::10_ingest/104_GetFTP.png[width=800]
+
+FTP取得頻度を0秒から600秒に変更：
+
+image::10_ingest/105_SetFreq.png[]
+
+GetFTPの各プロセッサー設定値：
+
+image::10_ingest/106_Parameter.png[]
+
+|===
+|キー | 値
+
+|Hostname
+|Google Docs参照
+
+|Username
+|Google Docs参照
+
+|Password
+|Google Docs参照
+
+|Remote Path
+|Google Docs参照
+
+|===
+
+
+### 1.2) AWS S3ストレージから、データを収集
+AWS S3からデータを取得し、HDFSの指定したフォルダに保存
+
+AWS Access Key、Secret Access KeyはGoogle Docs参照
+
 
 ## 2) データETL変換
 
