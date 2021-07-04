@@ -1,2 +1,32 @@
-# cdp-workshop
+# Cloudera CDP / CDF Workshop
 Cloudera CDP Workshop
+
+## Hands on概要：
+1) NiFi でテストデータを集めて、HDFSにデータを保存
+
+2) データETL変換
+
+3) HDFSに保存したデータをHUE+Hiveで分析
+
+4) HDFSに保存したデータをCML+Sparkで分析
+
+## 本日のサーバー、アカウント情報
+自分のアカウント・サーバーを取得。
+
+サーバーアドレス一覧：
+
+皆さんが自分利用しているサーバーに、名前を入力してください。
+それぞれAWSで実行している違うVM機です。
+
+
+## 1) データ収集
+### 1.1) FTPサーバーから、データを収集
+### 1.2) HTTPサーバーから、データを収集
+
+## 2) データETL変換
+
+
+## 3) HDFSに保存したデータをHUE+Hiveで分析
+
+
+## 4) HDFSに保存したデータをCML+Sparkで分析
